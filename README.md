@@ -11,4 +11,4 @@
 - [x] List check
 - [ ] List uncheck
 # Tugas tanggal 26 agustus
-- [ ] a
+- [ ] https://github.com/Erlang123/Proyek_pertemuan_14/issues/4
