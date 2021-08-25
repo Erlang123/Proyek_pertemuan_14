@@ -5,6 +5,6 @@
 		<title>Tugas Pertemuan 14</title>
 	</head>
 	<body>
-		<?php	?>
+		<?php	echo "testing git connection";?>
 	</body>
 </html>
