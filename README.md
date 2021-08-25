@@ -10,5 +10,5 @@
 # To do list (example)
 - [x] List check
 - [ ] List uncheck
-# Tugas
+# Tugas tanggal 26 agustus
 - [ ] a
