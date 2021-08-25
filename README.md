@@ -7,8 +7,3 @@
   - update_page_admin.php // update page admin
   - view_process.php // view data processing file
   - add_update_delete_process.php // add, update and delete data processing file
-# To do list (example)
-- [x] List check
-- [ ] List uncheck
-# Tugas tanggal 26 agustus
-- [ ] https://github.com/Erlang123/Proyek_pertemuan_14/issues/4
