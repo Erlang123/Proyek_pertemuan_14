@@ -27,7 +27,7 @@
 		<!-- Content situs -->
 		<content>
 			<div class="form-wrapper">
-				<h2>Login Peserta</h2>
+				<h2>Sign Up Peserta</h2>
 				<form action="#" method="get">
 					<div class="form-group">
 						<label for="">Nama</label><br>
