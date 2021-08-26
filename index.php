@@ -1,69 +1,70 @@
 <!doctype html>
 <html>
 	<head>
-		<style>
-			content{
-				display:flex;
-				width: 100%;
-				justify-content: center;
-			}
-			.form-wrapper{
-				border:solid 1px rgba(0,0,0,0.1);
-				padding: 20px;
-				/*width: inherit;*/
-			}
-			.form-group{
-				width:100%;
-				height: 100%;
-				background: #ecf0f5;
-			}
-		</style>
 		<meta charset="utf-8">
 		<title>Tugas Pertemuan 14</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 	
 	<body>
 		
 		<!-- Content situs -->
 		<content>
+			<!-- Card Wrapper -->
 			<div class="form-wrapper">
-				<h2>Sign Up Peserta</h2>
-				<form action="#" method="get">
+				<!-- Card title -->
+				<h2 class="card-title">Daftar peserta</h2>
+				
+				<!-- Form container -->
+				<form action="#" method="get" id="form1">
+					
+					<!-- Form content -->
 					<div class="form-group">
-						<label for="">Nama</label><br>
-						<input type="text" name="pre-nama" required><br>
-						<label for="">Jenis Kelamin</label><br>
-						<input type="radio" name="pre-nama" value="L" required>
-						<label for="">Laki - laki</label><br>
-						
-						<input type="radio" name="pre-nama" value="P" required>
-						<label for="">Perempuan</label><br>
-						
-						<label for="">Agama</label><br>
-						<input type="radio" name="pre-nama" value="P" required>
-						<label for="">Islam</label><br>
-						<input type="radio" name="pre-nama" value="P" required>
-						<label for="">Kristen</label><br>
-						<input type="radio" name="pre-nama" value="P" required>
-						<label for="">Buddha</label><br>
-						<input type="radio" name="pre-nama" value="P" required>
-						<label for="">Hindu</label><br>
-						<input type="radio" name="pre-nama" value="P" required>
-						<label for="">Katholik</label><br>
-						<input type="radio" name="pre-nama" value="P" required>
-						<label for="">Konghucu</label><br>
-						
-						<label for="">Sekolah Asal</label><br>
-						<input type="text" name="pre-nama" required><br>
-						<label for="">Alamat</label><br>
-						<input type="text" name="pre-nama" required><br>
-					 	<input type="submit" value="simpan">
+						<label for="">Nama</label>
+						<input class="input" type="text" name="post-nama" required>
+					</div>
+					<div class="form-group">
+						<label for="">Jenis Kelamin</label>
+						<div class="input-rad">
+							<input type="radio" name="post-jenis_kelamin" value="L" required>
+							<label class="item-rad" for="">Laki - laki</label>
+							<input type="radio" name="post-jenis_kelamin" value="P" required>
+							<label class="item-rad" for="">Perempuan</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="">Agama</label>
+						<div class="input-rad">
+							<input type="radio" name="post-agama" value="P" required>
+							<label class="item-rad" for="">Islam</label>
+							<input type="radio" name="post-agama" value="P" required>
+							<label class="item-rad" for="">Kristen</label>
+							<input type="radio" name="post-agama" value="P" required>
+							<label class="item-rad" for="">Buddha</label>
+							<input type="radio" name="post-agama" value="P" required>
+							<label class="item-rad" for="">Hindu</label>
+							<input type="radio" name="post-agama" value="P" required>
+							<label class="item-rad" for="">Katholik</label>
+							<input type="radio" name="post-agama" value="P" required>
+							<label class="item-rad" for="">Konghucu</label>
+						</div>
+					</div>
+					<div class="form-group">	
+						<label for="">Sekolah Asal</label>
+						<input class="input" type="text" name="post-sekolah_asal" required>
+					</div>
+					<div class="form-group">
+						<label for="">Alamat</label>
+						<textarea class="input" type="text" name="post-alamat" required></textarea>
+						<!-- Input hidden untuk selector pemroses data -->
+						<input type="hidden" value="add-new" name="selector">
+						<button class="btn btn-primary" form="form1">Submit</button>
 					</div>
 					
 				</form>
+				
 			</div>
 		</content>
 		
 	</body>
-	
 </html>
