@@ -80,13 +80,13 @@ body{
 	padding: 5px;
 }
 .btn{
-	padding: 5px;
+	padding: 5px 10px;
 	border-radius: 5px;
 	margin: 5px 0px;
 	cursor: pointer;
 }
 .btn-primary{
-	background: rgba(0,0,255,0.2);
+	background: rgba(0,0,255,0.55);
 	border: unset;
 	color: white;
 	font-weight: bold;
