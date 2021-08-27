@@ -57,7 +57,7 @@
 						<label for="">Alamat</label>
 						<textarea class="input" type="text" name="post-alamat" required></textarea>
 						<!-- Input hidden untuk selector pemroses data -->
-						<input type="hidden" value="add-new" name="selector">
+						<input type="hidden" value="add" name="selector">
 						<button class="btn btn-primary" form="form1">Submit</button>
 					</div>
 					
