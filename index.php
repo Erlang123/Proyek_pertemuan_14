@@ -16,7 +16,7 @@
 				<h2 class="card-title">Daftar peserta</h2>
 				
 				<!-- Form container -->
-				<form action="#" method="get" id="form1">
+				<form action="data_processing.php" method="get" id="form1">
 					
 					<!-- Form content -->
 					<div class="form-group">
@@ -35,17 +35,17 @@
 					<div class="form-group">
 						<label for="">Agama</label>
 						<div class="input-rad">
-							<input type="radio" name="post-agama" value="P" required>
+							<input type="radio" name="post-agama" value="Islam" required>
 							<label class="item-rad" for="">Islam</label>
-							<input type="radio" name="post-agama" value="P" required>
+							<input type="radio" name="post-agama" value="Kristen" required>
 							<label class="item-rad" for="">Kristen</label>
-							<input type="radio" name="post-agama" value="P" required>
+							<input type="radio" name="post-agama" value="Buddha" required>
 							<label class="item-rad" for="">Buddha</label>
-							<input type="radio" name="post-agama" value="P" required>
+							<input type="radio" name="post-agama" value="Hindu" required>
 							<label class="item-rad" for="">Hindu</label>
-							<input type="radio" name="post-agama" value="P" required>
+							<input type="radio" name="post-agama" value="Katholik" required>
 							<label class="item-rad" for="">Katholik</label>
-							<input type="radio" name="post-agama" value="P" required>
+							<input type="radio" name="post-agama" value="Konghucu" required>
 							<label class="item-rad" for="">Konghucu</label>
 						</div>
 					</div>
