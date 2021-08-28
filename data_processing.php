@@ -18,10 +18,19 @@ switch($selector){
 		}
 	break;
 	case "delete":  
-		if(issert($_GET(""))){
-			
+		if($_GET["post_id"] != null){
+			$query = "DELETE FROM peserta WHERE id = '" . $_GET["post_id"] . "'";
+            if(!mysqli_query($conn, $query)){echo "Error: " . mysqli_error($conn);}
+            header("location:submain_page_admin.php");
 		}
 	break;
+    case "update":
+        if($_GET["pre_id"] != null && $_GET["pre_nama"] != null && $_GET["pre_jenis_kelamin"] != null && $_GET["pre_agama"] != null && $_GET["pre_asal_sekolah"] != null && $_GET["pre_alamat"] != null){
+            $query = "UPDATE peserta SET id='" . $_GET["pre_id"] . "', nama='" . $_GET["post_nama"] . "', jenis_kelamin='" . $_GET["post_jenis_kelamin"] . "', agama='" . $_GET["post_agama"] . "', alamat='" . $_GET["post_alamat"] . "' WHERE id='" . $_GET["pre_id"] . "'";
+            echo $query;
+            //if(!mysqli_query($conn, $query)){echo "Error: " . mysqli_error($conn);}header("location:submain_page_admin.php");
+        }
+    break;
 	default: $_SESSION["isselectorwork"] = false;
 }
 ?>

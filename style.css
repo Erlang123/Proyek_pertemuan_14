@@ -4,11 +4,17 @@
 	box-sizing: border-box;
 }
 .fluid-container{
-	display: flex;
-	background: white;
-	width: 100%;
-	margin: unset;
+    display: flex;
+    background: white;
+    width: 100%;
+    margin: unset;
+    flex-direction: column;
 }
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 .sidebar{
     margin: unset;
     padding: 10px;

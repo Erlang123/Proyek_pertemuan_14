@@ -6,7 +6,7 @@ if(mysqli_num_rows($result) > 0){
 	$_SESSION["isdatanotempty"] = true;
 	$rowcounter = 0;
 	while($row = mysqli_fetch_array($result)){
-		for($var1 = 0; $var1 < /*jumlah kolom tabel*/; $var1++){
+		for($var1 = 0; $var1 < $jumlah_kolom; $var1++){
 			$_SESSION["datacontainer"][$rowcounter][$var1] = $row[$var1];
 		}
 		$rowcounter++;
