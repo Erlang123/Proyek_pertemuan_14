@@ -3,49 +3,20 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Untitled Document</title>
-		<style>
-			body{
-				margin: 0;
-				padding: 0;
-			}
-			a{
-				text-decoration: none;
-				color: black;
-				font-family: MS Reference Sans Serif;
-				font-size: 16pt;
-			}
-			.main-menu{
-				border-bottom:solid 1px black;
-				padding: 10px;
-			}
-			.sub-header{
-				font-family: arial;
-				font-size:20pt;
-				font-weight:bold;
-				padding:2px;
-				margin:2px;
-				
-				
-			}
-		</style>
 	</head>
-	<body>
-		
-		<!-- Container navbar -->
-		<div class="main-menu">
-			<a href="#" class="brand">
-				DIGITAL TALENT
-			</a>
-			
-			<button class="btn-navbar">
-				Sign in
-			</button>
+	<body style="padding: unset;margin:unset;">
+		<!-- Navbar -->
+		<div class="navbar" style="background: rgba(0,0,255,0.03);padding:15px;">
+            <!-- Content Navbar -->
+			<a href="#" class="brand" style="text-decoration: none;color: black;font-family: Helvetica;padding: 15px;">DIGITAL TALENT</a>
+			<a href="#" style="background: unset;border:unset;cursor: pointer;text-decoration:unset;color:black;font-family: Helvetica;padding: 5px;">Calon Peserta</a>
+            <a href="#" style="background: unset;border:unset;cursor: pointer;text-decoration:unset;color:rgba(0,0,0,0.4);font-family: Helvetica;padding: 5px;">Daftar Baru</a>
 		</div>
-		<div class="sub-header">
-			Selamat datang Peserta DIGITAL TALENT</div>
-		<hr>
-		<div class="">
-			Anda telah berhasil terdaftar di DIGITAL TALENT
-		</div>
+        <!-- Content Body -->
+		<content>
+            <h2 style="font-family: helvetica;padding:0px 30px;">Selamat datang Peserta Digital Talent</h2>
+            <hr style="width:96%;border-top:unset;border-right:unset;border-left:unset;border-bottom:solid 1px rgba(0,0,0,0.1);">
+            <p style="padding:0px 30px;font-family:helvetica;">Silahkan pilih menu <b>Daftar Baru</b> untuk melakukan pendaftaran</p>
+        </content>
 	</body>
 </html>

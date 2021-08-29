@@ -18,11 +18,14 @@
         </ul>
     </div>
     <div class="table-wrapper"> 
+        <!-- Title Table -->
+        <h2 style="padding: 0 15px;font-family: Helvetica;">Pendaftar</h2>
+        <hr style="border:unset;border-bottom:solid 1px rgba(0,0,0,0.1);">
         <!-- List data -->
         <table class="table">
-            <thead>
+            <thead style="background: black; color:white;">
                 <tr>
-                    <td>ID</td>
+                    <td>No.</td>
                     <td>Nama</td>
                     <td>Jenis Kelamin</td>
                     <td>Alamat</td>
@@ -38,7 +41,7 @@
                     for($var2 = 0; $var2 < count($_SESSION["datacontainer"][$var1]); $var2++){
                     echo "<td>" . $_SESSION["datacontainer"][$var1][$var2] . "</td>";
                     }
-                echo "<td><a class='btn btn-danger' href='data_processing.php?selector=delete&post_id=" . $_SESSION["datacontainer"][$var1][0] . "'>Delete</a>";
+                echo "<td><a class='btn' href='data_processing.php?selector=delete&post_id=" . $_SESSION["datacontainer"][$var1][0] . "'>Delete</a><a href='update_page_admin.php?pre_id=" . $_SESSION['datacontainer'][$var1][0] . "&pre_nama=" . $_SESSION['datacontainer'][$var1][1] . "&pre_jenis_kelamin=" . $_SESSION['datacontainer'][$var1][2] . "&pre_alamat=" . $_SESSION['datacontainer'][$var1][3] . "&pre_agama=" . $_SESSION['datacontainer'][$var1][4] . "&pre_asal_sekolah=" . $_SESSION['datacontainer'][$var1][5] . "' class='btn'>Change</a>";
                 echo "</tr>";
                 }} else{echo "<tr><td colspan='7'>Data kosong</td></tr>";}?>
             </tbody>

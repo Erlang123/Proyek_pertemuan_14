@@ -1,101 +1,106 @@
 /* CSS Document */
-
-*{
-	box-sizing: border-box;
+ *{
+     box-sizing: border-box;
 }
-.fluid-container{
-    display: flex;
-    background: white;
-    width: 100%;
-    margin: unset;
-    flex-direction: column;
-}
-form {
-    display: flex;
-    flex-direction: column;
+.table-wrapper .table tbody tr {
+    padding: 0px 10px;
 }
 
-.sidebar{
-    margin: unset;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    border-right: solid 1px rgba(0,0,0,0.1);
+ .fluid-container{
+     display: flex;
+     background: white;
+     width: 100%;
+     margin: unset;
 }
-.table thead tr td {
-    text-align: center;
+ form {
+     display: flex;
+     flex-direction: column;
+     width: inherit;
 }
-
-.sidebar .sidebar-title{
-	font-weight: inherit;
-	padding: 10px 0;
-	margin: unset;
-	font-size: x-large;
-	font-style: normal;
+ .sidebar{
+     margin: unset;
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     border-right: solid 1px rgba(0,0,0,0.1);
 }
-.sidebar .sidebar-list{
-	padding: unset;
-	margin: unset;
-	list-style-type: none;
-	font-size: large;
+ .table thead tr td {
+     text-align: center;
 }
-.sidebar .sidebar-list .list-item{
-	list-style: none;
-	padding: 5px 0px;
-	min-width: 155px;
+ .sidebar .sidebar-title{
+     font-weight: inherit;
+     padding: 10px 0;
+     margin: unset;
+     font-size: x-large;
+     font-style: normal;
 }
-body{
-    display: flex;
-    padding: unset;
-    margin: unset;
-    justify-content: center;
+ .sidebar .sidebar-list{
+     padding: unset;
+     margin: unset;
+     list-style-type: none;
+     font-size: large;
 }
-.card-title{
-	padding: 10px;
-	margin: unset;
-	font-weight: unset;
-	font-family: sans-serif;
+ .sidebar .sidebar-list .list-item{
+     list-style: none;
+     padding: 5px 0px;
+     min-width: 155px;
 }
-.form-wrapper{
-	border-radius: 10px;
-	border: solid 1px rgba(0,0,0,0.15);
-	padding: 10px;
-	background: white;
-	display: flex;
-	flex-direction: column;
+ body{
+     display: flex;
+     padding: unset;
+     margin: unset;
+     justify-content: center;
 }
-.fluid-container .table-wrapper {
-    width: inherit;
+ .card-title{
+     padding: 10px;
+     margin: unset;
+     font-weight: unset;
+     font-family: sans-serif;
 }
-
-.form-group{
-	padding: 10px;
-	width: 100%;
+ .form-wrapper{
+     border-radius: 10px;
+     border: solid 1px rgba(0,0,0,0.15);
+     padding: 15px;
+     background: white;
+     display: flex;
+     flex-direction: column;
 }
-.form-group .input{
-	width: 100%;
-	border-radius: 5px;
-	border: solid 1px rgba(0,0,0,0.2);
-	padding: 5px;
-	margin: 5px 0;
+ .fluid-container .table-wrapper {
+     width: inherit;
 }
-.form-group .input-rad{
-	padding: 5px;
+ .form-group{
+     padding: 10px;
+     width: 100%;
 }
-.form-group .input-rad .item-rad{
-	padding: 5px;
+ .form-group .input{
+     width: 100%;
+     border-radius: 5px;
+     border: solid 1px rgba(0,0,0,0.2);
+     padding: 5px;
+     margin: 5px 0;
 }
-.btn{
-	padding: 5px 10px;
-	border-radius: 5px;
-	margin: 5px 0px;
-	cursor: pointer;
+ .form-group .input-rad{
+     padding: 5px;
 }
-.btn-primary{
-	background: rgba(0,0,255,0.55);
-	border: unset;
-	color: white;
-	font-weight: bold;
-}.fluid-container .table-wrapper .table {
-    width: inherit;
+ .form-group .input-rad .item-rad{
+     padding: 5px;
+}
+ .btn{
+     padding: 5px 10px;
+     border-radius: 5px;
+     margin: 5px 0px;
+     cursor: pointer;
+}
+ .btn-primary{
+     background: rgba(0,0,255,0.55);
+     border: unset;
+     color: white;
+     font-weight: bold;
+}
+.fluid-container .table-wrapper .table {
+     padding: 15px;
+     width: inherit;
+}
+ a {
+     text-decoration: none;
 }
